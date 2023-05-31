@@ -10,7 +10,7 @@
 }
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 strong {
@@ -145,11 +145,11 @@ body {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #about-us h1 {
     font-size: 30px;
+    text-align: center;
 }
 
 #about-us div img {
@@ -161,12 +161,11 @@ body {
 
 #about-us div p {
     display: inline-block;
-    width: 60%;
+    /* width: 60%; */
     margin: 20px 0px 20px 0px;
     padding: 0px 20px 0px 20px;
+    text-align: justify;
 }
-
-
 
 /*! Body: Services!*/
 
@@ -176,9 +175,53 @@ body {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+#students-list {
+    margin: 75px 0px 75px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 #services h1 {
     font-size: 30px;
+    text-align: center;
+}
+
+.student-card {
+    width: 250px;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    display: block;
+}
+
+#students-list div.student-card img.student-image {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: block;
+}
+
+#students-list .text-block {
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+#students-list h3 {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.text-block p {
+    font-size: 15px;
+    text-align: justify;
+    display: block;
+    width: 100%;
 }
