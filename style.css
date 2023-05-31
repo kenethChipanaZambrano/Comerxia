@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+
+:root {
+    --dark-color-1: #334f5a;
+    --dark-color-2: #424242;
+    --light-color-1: #00cccb;
+    --light-color-2: #00adac;
+    --accent-color: #ffc02b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+strong {
+    color: var(--accent-color);
+}
+
+.font-white {
+    color: #fff;
+}
+
+.title {
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px 10px 0px 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  color: #333;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 60%;
+}
+
+/*! Header !*/
+
+#page-header {
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+/*! Header: imagotipo !*/
+
+#header-logo-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    height: 50px;
+    padding: 0px 10px 0px 10px;
+    float: left;
+}
+
+#header-logo {
+    height: 100%;
+    width: auto;
+}
+
+#logo-title {
+    height: 100%;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0px 10px 0px 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+/*!Header: Navegador de páginas*/
+
+#header-navbar {
+    padding: 10px 0px 10px 0px;
+    margin:0px;
+    float: right;
+}
+
+.header-option {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.header-option:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+/*! Body!*/
+
+#page-body {
+    background-color: #fff;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
+
+/*! Body: Banner!*/
+
+.banner {
+    background-image: url("assets/banner.png");
+    background-repeat: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+#call-to-action-banner {
+    width: 60%;
+    padding: 40px;
+}
+
+#banner-button {
+    background-color: var(--accent-color);
+    border: none;
+    color: #fff;
+    font: 15px 'Poppins', sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+#banner-button:hover {
+    background-color: var(--light-color-1);
+    cursor: pointer;
+}
+
+/*! Body: About us!*/
+
+#about-us {
+    margin: 75px 0px 75px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us h1 {
+    font-size: 30px;
+}
+
+#about-us div img {
+    width: 40%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    float: left;
+}
+
+#about-us div p {
+    display: inline-block;
+    width: 60%;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+/*! Body: Services!*/
+
+#services {
+    margin: 75px 0px 75px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services h1 {
+    font-size: 30px;
+}
