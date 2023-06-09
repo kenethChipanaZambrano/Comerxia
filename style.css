@@ -91,6 +91,8 @@ button.solid-1 {
     color: #fff;
     border: none;
     padding: 10px 20px 10px 20px;
+    min-width: 100px;
+    min-height: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -108,6 +110,8 @@ button.solid-2 {
     color: #fff;
     border: none;
     padding: 10px 20px 10px 20px;
+    min-width: 100px;
+    min-height: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -125,6 +129,8 @@ button.solid-3 {
     color: #fff;
     border: none;
     padding: 10px 20px 10px 20px;
+    min-width: 100px;
+    min-height: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -142,6 +148,8 @@ button.solid-4 {
     color: #fff;
     border: none;
     padding: 10px 20px 10px 20px;
+    min-width: 100px;
+    min-height: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -156,6 +164,9 @@ button.solid-4:hover {
 
 /*! General !*/
 
+div.space-up-down-50 {
+    margin: 50px 0px 50px 0px;
+}
 
 
 strong {
@@ -300,7 +311,7 @@ body {
 
 #about-us div img {
     width: 40%;
-    height: auto;
+    /* height: auto; */
     margin: 20px 0px 20px 0px;
     float: left;
 }
