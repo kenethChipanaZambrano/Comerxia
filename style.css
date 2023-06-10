@@ -186,7 +186,7 @@ strong {
 
 body {
   font-family: 'Poppins', sans-serif;
-  position: relative;
+  /* position: relative; */
   color: #333;
   background-color: #fff;
   margin: 0 auto;
@@ -309,19 +309,17 @@ body {
     text-align: center;
 }
 
-#about-us div img {
-    width: 40%;
-    /* height: auto; */
+img#about-us-image {
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
     margin: 20px 0px 20px 0px;
     float: left;
 }
-
-#about-us div p {
-    display: inline-block;
-    width: 60%;
-    margin: 20px 0px 20px 0px;
-    padding: 0px 20px 0px 20px;
-    text-align: justify;
+div#about-us-container {
+    /*elements must be evenly spaciated horizontally*/
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /*! Body: Services!*/
@@ -339,6 +337,7 @@ body {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
@@ -365,7 +364,7 @@ body {
     display: block;
 }
 
-#students-list .text-block {
+div.student-card p {
     padding: 10px 0px 10px 0px;
     width: 100%;
 }
@@ -381,4 +380,37 @@ body {
     text-align: justify;
     display: block;
     width: 100%;
+}
+
+
+.service-image {
+    width: 300px;
+    height: 250px;
+    margin: 20px 0px 20px 0px;
+    float: left;
+}
+
+div.benefit-card 
+{
+    background-color: var(--light-color-1);
+    width: 15rem;
+    height: 15rem;
+    margin: 10px;
+}
+
+div#benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 150px;
+}
+
+img.benefit-card-icon {
+    width: 7rem;
+    height: 7rem;
+    margin: 20px 20px 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
