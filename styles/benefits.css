@@ -1,0 +1,30 @@
+div.benefit-card 
+{
+    background-color: var(--light-color-1);
+    width: 15rem;
+    height: 15rem;
+    margin: 10px;
+}
+
+div.benefit-card p {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+div#benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 150px;
+}
+
+img.benefit-card-icon {
+    width: 7rem;
+    height: 7rem;
+    margin: 20px 20px 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

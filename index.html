@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/aboutus.css" />
+    <link rel="stylesheet" href="styles/benefits.css" />
+    <link rel="stylesheet" href="styles/subscriptions.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link rel="icon" href="assets/white-logo.svg" />
   </head>
   <body>
     <div id="page-header">
       <header>
         <nav>
-          <!--Bloque de imagotipo-->
           <div id="header-logo-container">
             <img
               id="header-logo"
@@ -18,7 +22,6 @@
               alt="Logo"
             />
           </div>
-          <!--Bloque de opciones-->
           <div>
             <ul id="header-navbar">
               <li class="header-option" onclick="window.location.href='#home'">
@@ -50,7 +53,7 @@
       </section>
       <section id="about-us">
         <div>
-          <h1>About us</h1>
+          <h1 class="center-text">About us</h1>
           <div id="about-us-container">
             <img id="about-us-image" src="assets/team2.jpg" />
             <p id="about-us-text">
@@ -71,100 +74,138 @@
               <div class="student-card">
                 <div>
                   <img class="student-image" src="assets/user.png" />
-                  <h3>Sheyla Samira Pastor Ccasani</h3>
+                  <h3>Sheyla Pastor Ccasani</h3>
                   <p>Systems Engineering Student</p>
                 </div>
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Diego Fabian Cancho Coila</h3>
+                <h3>Diego Cancho Coila</h3>
                 <p>Software Engineering Student</p>
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Diego Arturo Huincho Lapa</h3>
+                <h3>Diego Huincho<br>Lapa</h3>
                 <p>Software Engineering Student</p>
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Fabio Sebastian Portella Nina</h3>
+                <h3>Fabio Portella Nina</h3>
                 <p>Systems Engineering Student</p>
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Kenneth Pedro Chipana Zambrano</h3>
+                <h3>Kenneth Chipana Zambrano</h3>
                 <p>Systems Engineering Student</p>
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Gustavo Adolfo Pardo Zapata</h3>
+                <h3>Gustavo Pardo Zapata</h3>
                 <p>Software Engineering Student</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="services">
-        <div>
-          <h1>Services</h1>
-          <div id="services-cards">
-            <div>
-              <img class="service-image" src="assets/calculations.jpg" />
             </div>
           </div>
         </div>
       </section>
       <section id="benefits">
         <div>
-          <h1>Benefits</h1>
+          <h1 class="center-text">Benefits</h1>
         </div>
         <div id="benefits-container">
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
+            <p>No ads</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
+            <p>Bigger list of activities</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
+            <p>Statistics of your sales</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
+            <p>Priority sales</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
-            <p>Hello</p>
+            <p>Marketing for your business</p>
           </div>
-          <div class="benefit-card">
+          <div class="benefit-card font-white">
             <img class="benefit-card-icon" src="assets/user.png">
+            <p>Professionally manage your business</p>
           </div>
         </div>
       </section>
       <section id="subscriptions">
-        <div id="basic-subscription" class="subscription">
-          <div class="subscription-box">
-            <h2 class="subscription-title">Plan Basic</h2>
-            <p class="subscription-price">$9.99/mes</p>
-            <ul class="subscription-features">
-              <li>Free</li>
-              <li>Manage your sales</li>
-            </ul>
-            <button>Mostrar más</button>
-          </div>
+        <div>
+          <h1 class="center-text">Subscriptions</h1>
         </div>
-        
-        <div id="pro" class="subscription">
-          <div class="subscription-box">
-            <h2 class="subscription-title">Plan Pro</h2>
-            <p class="subscription-price">$19.99/mes</p>
-            <ul class="subscription-features">
-              <li>No ads</li>
-              <li>You can learn to manage your business well</li>
-            </ul>
-            <button>Mostrar más</button>
+        <div id="subscriptions-container">
+          <div id="basic-subscription" class="subscription">
+            <div class="subscription-box">
+              <h2 class="subscription-title">Plan Basic</h2>
+              <p class="subscription-price">$9.99/mes</p>
+              <ul class="subscription-features">
+                <li>Free</li>
+                <li>Manage your sales</li>
+              </ul>
+              <button class="solid-4">Mostrar más</button>
+            </div>
+          </div>
+          
+          <div id="pro" class="subscription">
+            <div class="subscription-box">
+              <h2 class="subscription-title">Plan Pro</h2>
+              <p class="subscription-price">$19.99/mes</p>
+              <ul class="subscription-features">
+                <li>No ads</li>
+                <li>You can learn to manage your business well</li>
+              </ul>
+              <button class="solid-4">Mostrar más</button>
+            </div>
           </div>
         </div>
       </section>
+      <footer id="contact">
+        <div>
+          <h1 class="font-white center-text ">Contact us</h1>
+          <form id="contact-form">
+            <!--contact form with name, email, message and button for send-->
+            <div class="form-group">
+              <label for="name" class="font-white">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="font-white">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="font-white">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button class="solid-4">Send</button>
+          </form>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

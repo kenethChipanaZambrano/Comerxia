@@ -1,0 +1,29 @@
+.banner {
+    background-image: url("../assets/banner.png");
+    background-repeat: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+#call-to-action-banner {
+    width: 60%;
+    padding: 40px;
+}
+
+#banner-button {
+    background-color: var(--accent-color);
+    border: none;
+    color: #fff;
+    font: 15px 'Poppins', sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+#banner-button:hover {
+    background-color: var(--light-color-1);
+    cursor: pointer;
+    transition: 0.1s;
+}

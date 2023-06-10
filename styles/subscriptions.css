@@ -1,0 +1,31 @@
+#subscriptions-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subscription {
+    border: 1px solid var(--accent-color);
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subscription-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.subscription-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    padding: 1rem;
+}

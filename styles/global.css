@@ -84,6 +84,10 @@ p em {
     font-style: italic;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /*! Components !*/
 
 button.solid-1 {
@@ -207,13 +211,10 @@ body {
 /*! Header: imagotipo !*/
 
 #header-logo-container {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    float: left;
     max-width: fit-content;
     height: 50px;
     padding: 0px 10px 0px 10px;
-    float: left;
 }
 
 #header-logo {
@@ -251,8 +252,6 @@ body {
     cursor: pointer;
 }
 
-/*! Body!*/
-
 #page-body {
     background-color: #fff;
     padding: 10px 0px 10px 0px;
@@ -260,157 +259,4 @@ body {
     width: 100%;
     height: fit-content;
     z-index: 1;
-}
-
-/*! Body: Banner!*/
-
-.banner {
-    background-image: url("assets/banner.png");
-    background-repeat: auto;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-}
-
-#call-to-action-banner {
-    width: 60%;
-    padding: 40px;
-}
-
-#banner-button {
-    background-color: var(--accent-color);
-    border: none;
-    color: #fff;
-    font: 15px 'Poppins', sans-serif;
-    padding: 10px 20px 10px 20px;
-}
-
-#banner-button:hover {
-    background-color: var(--light-color-1);
-    cursor: pointer;
-    transition: 0.1s;
-}
-
-/*! Body: About us!*/
-
-#about-us {
-    margin: 75px 0px 75px 0px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-#about-us h1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-img#about-us-image {
-    width: 20rem;
-    height: auto;
-    object-fit: cover;
-    margin: 20px 0px 20px 0px;
-    float: left;
-}
-div#about-us-container {
-    /*elements must be evenly spaciated horizontally*/
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/*! Body: Services!*/
-
-#services {
-    margin: 75px 0px 75px 0px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-#students-list {
-    margin: 75px 0px 75px 0px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-#services h1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-.student-card {
-    width: 250px;
-    height: auto;
-    margin: 20px 0px 20px 0px;
-    padding: 0px 20px 0px 20px;
-    float: left;
-    display: block;
-}
-
-#students-list div.student-card img.student-image {
-    width: 100%;
-    height: auto;
-    clear: both;
-    display: block;
-}
-
-div.student-card p {
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-}
-
-#students-list h3 {
-    font-size: 20px;
-    text-align: center;
-    display: block;
-}
-
-.text-block p {
-    font-size: 15px;
-    text-align: justify;
-    display: block;
-    width: 100%;
-}
-
-
-.service-image {
-    width: 300px;
-    height: 250px;
-    margin: 20px 0px 20px 0px;
-    float: left;
-}
-
-div.benefit-card 
-{
-    background-color: var(--light-color-1);
-    width: 15rem;
-    height: 15rem;
-    margin: 10px;
-}
-
-div#benefits-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    min-height: 150px;
-}
-
-img.benefit-card-icon {
-    width: 7rem;
-    height: 7rem;
-    margin: 20px 20px 20px 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
