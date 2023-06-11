@@ -19,23 +19,25 @@
     --accent-color-desaturated: #FFF2D5;
 }
 
-
 * {
     box-sizing: border-box;
 }
-
 
 /*! Imported from Style Guidelines !*/
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
+    margin: 0px;
+    padding: 1rem;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     text-align: center;
+    margin: 0px;
+    padding: 1rem;
 }
 
 h3 {
@@ -71,21 +73,17 @@ p {
     padding: 10px;
 }
 
-p a {
+p>a {
     color: var(--accent-color);
 }
 
-p strong {
+p>strong {
     color: var(--accent-color);
     font-weight: 600;
 }
 
-p em {
+p>em {
     font-style: italic;
-}
-
-.center-text {
-    text-align: center;
 }
 
 /*! Components !*/
@@ -166,26 +164,22 @@ button.solid-4:hover {
     box-sizing: border-box;
 }
 
-/*! General !*/
-
-div.space-up-down-50 {
-    margin: 50px 0px 50px 0px;
+.light-1 {
+    background-color: #fff;
+    color: var(--dark-color-1);
+    border: 1px solid var(--dark-color-1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
+/*! General !*/
 
-strong {
-    color: var(--accent-color);
+.center-text {
+    text-align: center;
 }
 
 .font-white {
     color: #fff;
-}
-
-.title {
-    font-family: 'Ysabeau', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 0px 10px 0px 10px;
 }
 
 body {
@@ -254,9 +248,18 @@ body {
 
 #page-body {
     background-color: #fff;
-    padding: 10px 0px 10px 0px;
     position: relative;
     width: 100%;
     height: fit-content;
-    z-index: 1;
+}
+
+section {
+    padding: 2rem;
+}
+
+.social-media-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
 }

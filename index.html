@@ -33,10 +33,30 @@
               >
                 About Us
               </li>
-              <li class="header-option">Services</li>
-              <li class="header-option">Subscriptions</li>
-              <li class="header-option">Contact</li>
-              <li class="header-option">Log in</li>
+              <li
+                class="header-option"
+                onclick="window.location.href='#benefits'"
+              >
+                Benefits
+              </li>
+              <li
+                class="header-option"
+                onclick="window.location.href='#subscriptions'"
+              >
+                Subscriptions
+              </li>
+              <li
+                class="header-option"
+                onclick="window.location.href='#contact'"
+              >
+                Contact
+              </li>
+              <li
+              class="header-option"
+              onclick="window.location.href='login.html'"
+              >
+              Log in
+            </li>
             </ul>
           </div>
         </nav>
@@ -85,7 +105,7 @@
               </div>
               <div class="student-card">
                 <img class="student-image" src="assets/user.png" />
-                <h3>Diego Huincho<br>Lapa</h3>
+                <h3>Diego Huincho<br />Lapa</h3>
                 <p>Software Engineering Student</p>
               </div>
               <div class="student-card">
@@ -113,27 +133,27 @@
         </div>
         <div id="benefits-container">
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/no-ads.png" />
             <p>No ads</p>
           </div>
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/items-list.jpeg" />
             <p>Bigger list of activities</p>
           </div>
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/stats.jpeg" />
             <p>Statistics of your sales</p>
           </div>
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/priority.jpeg" />
             <p>Priority sales</p>
           </div>
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/marketing.jpeg" />
             <p>Marketing for your business</p>
           </div>
           <div class="benefit-card font-white">
-            <img class="benefit-card-icon" src="assets/user.png">
+            <img class="benefit-card-icon" src="assets/manage.jpeg" />
             <p>Professionally manage your business</p>
           </div>
         </div>
@@ -154,7 +174,7 @@
               <button class="solid-4">Mostrar más</button>
             </div>
           </div>
-          
+
           <div id="pro" class="subscription">
             <div class="subscription-box">
               <h2 class="subscription-title">Plan Pro</h2>
@@ -168,42 +188,64 @@
           </div>
         </div>
       </section>
-      <footer id="contact">
+      <section id="contact">
         <div>
-          <h1 class="font-white center-text ">Contact us</h1>
+          <h1 class="center-text">Contact us</h1>
           <form id="contact-form">
             <!--contact form with name, email, message and button for send-->
             <div class="form-group">
-              <label for="name" class="font-white">Name</label>
+              <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Your name"
+                class="light-1"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="email" class="font-white">Email</label>
+              <label for="email">Email</label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Your email"
+                class="light-1"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="message" class="font-white">Message</label>
+              <label for="message">Message</label>
               <textarea
                 id="message"
                 name="message"
                 placeholder="Your message"
+                class="light-1"
                 required
               ></textarea>
             </div>
             <button class="solid-4">Send</button>
           </form>
+        </div>
+      </section>
+      <footer>
+        <div class="social-media-container">
+          <a>
+            <img class="social-media-icon" src="assets/youtube.svg" />
+          </a>
+          <a>
+            <img class="social-media-icon" src="assets/instagram.svg" />
+          </a>
+          <a>
+            <img class="social-media-icon" src="assets/facebook.svg" />
+          </a>
+          <a>
+            <img class="social-media-icon" src="assets/tiktok.svg" />
+          </a>
+        </div>
+        <div>
+          <p class="font-white">© 2021 Comerxia. All rights reserved.</p>
         </div>
       </footer>
     </div>
