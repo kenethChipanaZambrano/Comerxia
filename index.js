@@ -1,0 +1,1 @@
+//What to add in a index.js file
